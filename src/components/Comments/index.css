@@ -1,0 +1,121 @@
+/* app-container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+/* comments-app-container */
+@media screen and (min-width: 768px) {
+  .comments-app-container {
+    margin-top: 96px;
+  }
+}
+
+/* comments-container */
+.comments-container {
+  width: 90%;
+  max-width: 550px;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-container {
+    width: 80%;
+    max-width: 1140px;
+  }
+}
+
+/* comments-inputs */
+.comments-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-inputs {
+    flex-direction: row;
+  }
+}
+
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    width: 28%;
+    min-width: 300px;
+  }
+}
+
+/* name-input */
+.name-input {
+  height: 48px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  outline: none;
+}
+
+/* comment-input */
+.comment-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+/* add-button */
+.add-button {
+  color: #fff;
+  background-color: #8284c7;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+/* image */
+.image {
+  width: 280px;
+  height: 200px;
+}
+
+/* comments-count */
+.comments-count {
+  text-align: center;
+  background-color: #8284c7;
+  font-size: 12px;
+  color: #fff;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  margin-right: 4px;
+}
+
+/* comments-list */
+.comments-list {
+  padding-left: 0;
+  margin-top: 0;
+}
