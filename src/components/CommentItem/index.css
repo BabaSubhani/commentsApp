@@ -26,7 +26,7 @@
   background-color: #8ea5e9;
 }
 
-/* Write your CSS here */
+
 
 .comment-item {
   list-style-type: none;
@@ -47,33 +47,6 @@
   flex-shrink: 8;
 }
 
-.amber {
-  background-color: #f59e0b;
-}
-
-.blue {
-  background-color: #8b69ff;
-}
-
-.orange {
-  background-color: #1973168;
-}
-
-.emerald {
-  background-color: #10b9818;
-}
-
-.teal {
-  background-color: #141886;
-}
-
-.red {
-  background-color: #b91c1c;
-}
-
-.Light-blue {
-  background-color: #0ea5e9;
-}
 
 .initial {
   margin-top: 20px;
