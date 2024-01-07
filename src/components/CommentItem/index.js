@@ -1,6 +1,6 @@
-// CommentItem.js
-import React from 'react'
+
 import {formatDistanceToNow} from 'date-fns'
+import './index.css'
 
 const CommentItem = props => {
   const {commentDetails, toggleIsLiked, deleteComment} = props
